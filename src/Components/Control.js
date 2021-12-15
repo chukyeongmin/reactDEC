@@ -7,7 +7,7 @@ class Control extends Component {
             <li><a href="/create" onClick={function(e){
               e.preventDefault();
               this.props.onChangeMode('create');
-            }.bind(this)}>create</a></li>
+            }.bind(this)}>create2</a></li>
             <li><a href="/update" onClick={function(e){
               e.preventDefault();
               this.props.onChangeMode('update');
