@@ -17,7 +17,7 @@ class UpdateContent extends Component{
     render() {
       return(
         <article>
-            <h2>수정하기</h2>
+            <h2>수정하기2</h2>
               <form action="/update_process" mothod="post"
                 onSubmit={function(e){
                   e.preventDefault();
